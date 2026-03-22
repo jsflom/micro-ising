@@ -1,7 +1,0 @@
-Command: /opt/esp/python_env/idf6.1_py3.12_env/bin/python /opt/esp/idf/tools/idf_monitor.py -p rfc2217://host.docker.internal:4000?ign_set_control -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c6 --revision 0 --decode-panic backtrace /project/build/micro.elf /project/build/bootloader/bootloader.elf -m '/opt/esp/python_env/idf6.1_py3.12_env/bin/python' '/opt/esp/idf/tools/idf.py'
-[0;33m--- esp-idf-monitor 1.9.0 on rfc2217://host.docker.internal:4000?ign_set_control 115200[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
-[0m--- 0x4086b910: [0;33mesp_bootloader_get_description[0m[0m at [0;32m/opt/esp/idf/components/esp_bootloader_format/esp_bootloader_desc.c[0m[0m:[1;31m40[0m
-[0m--- 0x4086e610: [0;33mesp_flash_encryption_enabled[0m[0m at [0;32m/opt/esp/idf/components/bootloader_support/src/flash_encrypt.c[0m[0m:[1;31m93[0m
-[0m--- 0x4086b91a: [0;33mcall_start_cpu0[0m[0m at [0;32m/opt/esp/idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
-[0m
